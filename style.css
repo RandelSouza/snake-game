@@ -1,0 +1,32 @@
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(26, 63, 26);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    background-size: cover;
+}
+
+img#right {
+    transform: scaleX(-1);
+    margin-right: 3px;
+    z-index: -1;
+}
+
+img#left{
+    margin-left: -38px;
+    z-index: -1;
+}
