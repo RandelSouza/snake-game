@@ -19,14 +19,15 @@ let food = {
 }
 
 
-function iniciarJogo(){        
+function iniciarJogo(){     
+    delimitarCenario();
+    gameOver();      
     criarBG();    
     criarCobrinha(); 
     drawFood();
     score();
     aumentarSnakeAtualizarScore();
-    delimitarCenario();
-    gameOver();        
+       
 }
 
 let jogo = setInterval(iniciarJogo, 100);
