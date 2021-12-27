@@ -1,6 +1,6 @@
-## SNAKE GAME
+# SNAKE GAME
 
-# Descrição do Desafio da Dio
+## Descrição do Desafio da Dio
 
 O desadio consistiu em desenvolver de forma simples o clássico jogo da cobrinha utilizando HTML, CSS e JavaScript. 
 
